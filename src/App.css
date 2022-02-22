@@ -1,0 +1,33 @@
+.charts-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    column-gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigger{
+    /* flex-grow: 2; */
+    min-width: 600px;
+}
+
+/* .smaller{
+    flex-grow: 1;
+} */
+
+.fullwidth{
+  width : 100%;
+}
+
+.content{
+  width: 100%;
+}
+
